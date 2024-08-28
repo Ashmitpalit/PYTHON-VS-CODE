@@ -1,0 +1,5 @@
+hundred=int(input("Enter the number of 100 rupee notes "))
+fivehundred=int(input("Enter the number of 500 rupee notes "))
+twothousand=int(input("Enter the number of 2000 rupee notes "))
+total=((hundred*100)+(fivehundred*500)+(twothousand*2000))
+print(f'The total sum is {total}')

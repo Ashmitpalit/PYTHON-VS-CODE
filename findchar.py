@@ -1,0 +1,7 @@
+str=input("Enter a string ")
+str=str.casefold()
+str=str.capitalize()
+str=str.replace(" ","  ")
+c=str.count("a")
+print(str)
+print(c)
